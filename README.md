@@ -1,7 +1,6 @@
 # LVMtoCSVconverter
-A simple program that converts .lvm files created by Data Logger utility in NI myDAQ software into .csv files.
 
-This program is designed to convert .lvm files created by Data Logger utility in NI ELVISmx.
+This program is designed to convert .lvm files created by Data Logger utility in NI ELVISmx (software for NI myDAQ).
 Data Logger formats data in the following way: "< datestamp >< doublespace >< timestamp ><\t>< measurment >".
 The program WILL NOT WORK CORRECTLY if your .lvm files are formatted differently.
 
