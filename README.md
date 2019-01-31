@@ -2,10 +2,11 @@
 A simple program that converts .lvm files created by Data Logger utility in NI myDAQ software into .csv files.
 
 This program is designed to convert .lvm files created by Data Logger utility in NI ELVISmx.
-Data Logger formats data in the following way: "<date stamp><double space><time stamp><\t><measurment>".
+Data Logger formats data in the following way: "< datestamp >< doublespace >< timestamp ><\t>< measurment >".
 The program WILL NOT WORK CORRECTLY if your .lvm files are formatted differently.
 
 ONLY WORKS ON WINDOWS 64-BITS (32-bit systems have not been tested).
+
 This is how data is formatted in .csv files:
 1) The first line with column names is remmoved (e.g. "Time  myDAQ1 (NI myDAQ)/ai0").
 2) The date stamp is removed. (So if during your measurments the date changes, the times in the .csv file will not be correct,
