@@ -15,4 +15,4 @@ but that can be solved when you are processing your data.)
 file, the first measurment will have time 0, and the second measurment will have time 1.1.)
 4) Time column and the column with the measured value are separated by a comma.
 
-To use the converter, you need to compile the .cpp file, and place the compiled executable in the directory with the .lmv files that you want to convert.
+To use the converter, you need to put LVMtoCSVconverter.exe file into the directory with .lvm files that you want to convert and run the .exe. If Windows gives you a warning, you need to click "More Info", and then "Run Anyways" (or can just complie the .cpp file).
